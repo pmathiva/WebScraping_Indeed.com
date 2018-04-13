@@ -7,12 +7,12 @@ This script makes use of  Python's BeautifulSoup, nltk and requests packages.
 class JobSearch has 4 fuctions:
   The constructor initializes the searchCriteria and numPages variables based on the user's input
   
-1) getJobData() 
+1) getJobData() --
     Fetches the pages and internally invokes the getJobDetails function to populate the details of each job
     Returns a list of lists
-2) getJobDetails
+2) getJobDetails --
     Returns the details of a particular job
-3) makeJobFile
+3) makeJobFile --
     Writes the results to a csv file in the specified location
-4) printData
+4) printData --
     Prints the searchCriteria and the numPages values
